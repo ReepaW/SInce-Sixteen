@@ -3,6 +3,10 @@ import './App.css'
 import jempol from './assets/jempol.JPG'
 import wisuda from './assets/wisuda.JPG'
 import bubuy from './assets/bubuy.JPG'
+import wisudah from './assets/wisudah.JPG'
+import mu1 from './assets/mu1.JPG'
+import mu2 from './assets/mu2.JPG'
+import mu3 from './assets/mu3.JPG'
 
 function App() {
   const [entered, setEntered] = useState(false)
@@ -19,6 +23,15 @@ function App() {
     e.preventDefault()
     setContactSubmitted(true)
   }
+
+  // Define portfolio images array OUTSIDE JSX
+  const portfolioImages = [
+    { src: wisudah, alt: "Wisudah" },
+    { src: mu1, alt: "mu1" },
+    { src: mu2, alt: "mu2" },
+    { src: mu3, alt: "mu3" },
+  
+  ]
 
   return (
     <div className="app">
@@ -45,7 +58,7 @@ function App() {
       {/* Hero / Landing - full screen until ENTER */}
       <section className={`hero ${entered ? 'exited' : ''}`}>
         <div className="hero-bg">
-          <img src={bubuy} alt="" className="hero-bg-img" />
+          <img src={mu1} alt="mu1" className="hero-bg-img" />
         </div>
         <div className="hero-content">
           <h1 className="hero-name">Reepaw & Reecah</h1>
@@ -69,9 +82,9 @@ function App() {
           <section id="portfolio" className="section portfolio">
             <h2>PORTFOLIO</h2>
             <div className="gallery">
-              {[1, 2, 3, 4, 5, 6].map((i) => (
+              {portfolioImages.map((image, i) => (
                 <div key={i} className="gallery-item">
-                  <div className="gallery-placeholder" />
+                  <img src={image.src} alt={image.alt} className="gallery-img" />
                 </div>
               ))}
             </div>

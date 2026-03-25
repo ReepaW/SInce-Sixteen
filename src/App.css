@@ -245,6 +245,15 @@
   aspect-ratio: 4/5;
   overflow: hidden;
 }
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  /* This is the magic: it tells the photo to 'fit' into the box 
+     without zooming in or stretching. */
+  object-fit: cover; 
+  object-position: center;
+}
 
 .gallery-placeholder {
   width: 100%;
