@@ -1,7 +1,7 @@
 /* --- Variables --- */
 :root {
-  --bg: #0a0a0a;
-  --bg-soft: #111;
+  --bg: #000;
+  --bg-soft: #050505;
   --text: #f5f5f5;
   --text-muted: #888;
   --border: rgba(255, 255, 255, 0.08);
@@ -34,7 +34,7 @@
 }
 .page-label.bottom {
   bottom: 1.5rem;
-  left: 1.5rem;
+  right: 1.5rem;
 }
 
 /* --- Overlay Menu --- */
@@ -156,7 +156,7 @@
 
 .enter-btn {
   background: none;
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  border: 1px solid rgb(255, 255, 255);
   color: var(--text);
   font-family: var(--sans);
   font-size: 0.7rem;
@@ -174,7 +174,7 @@
 .main {
   position: relative;
   z-index: 1;
-  padding-top: 5rem;
+  padding-top: 0;
 }
 
 .intro-photo {
@@ -240,16 +240,15 @@
 
 /* --- Header --- */
 .header {
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 0;
-  right: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 2rem;
   z-index: 50;
-  background: linear-gradient(to bottom, var(--bg) 0%, transparent 100%);
+  background: rgba(0, 0, 0, 0.95);
+  backdrop-filter: blur(4px);
 }
 
 .logo {
@@ -308,7 +307,7 @@
 
 .journey-card {
   border: 1px solid var(--border);
-  background: rgba(255, 255, 255, 0.01);
+  background: rgba(0, 0, 0, 0.01);
   padding: 0;
   text-align: left;
   color: var(--text);

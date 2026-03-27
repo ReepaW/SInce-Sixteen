@@ -83,8 +83,8 @@ function App() {
       {/* Top / Bottom labels - visible after enter */}
       {entered && (
         <>
-          <span className="page-label top">Since Sixteen</span>
-          <span className="page-label bottom">Our Journey</span>
+          
+          <span className="page-label bottom">Reepaw &amp; Reecah</span>
         </>
       )}
 
@@ -120,7 +120,7 @@ function App() {
       {entered && (
         <main className="main">
           <header className="header">
-            <a href="/" className="logo">Reepaw &amp; Reecah</a>
+            <a href="/" className="logo">Since Sixteen</a>
             <button className="menu-btn" onClick={() => setMenuOpen(true)}>
               MENU
             </button>
