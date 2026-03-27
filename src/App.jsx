@@ -81,6 +81,10 @@ function App() {
             </button>
           </header>
 
+          <section className="intro-photo">
+            <img src={mu1} alt="Main memory" className="intro-photo-img" />
+          </section>
+
           <section id="portfolio" className="section portfolio">
             <h2>PORTFOLIO</h2>
             <div className="gallery">
