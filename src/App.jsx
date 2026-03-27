@@ -7,6 +7,7 @@ import wisudah from './assets/wisudah.JPG'
 import mu1 from './assets/mu1.JPG'
 import mu2 from './assets/mu2.JPG'
 import mu3 from './assets/mu3.JPG'
+import muanim from './assets/muanim.JPG'
 
 function App() {
   const [entered, setEntered] = useState(false)
@@ -82,7 +83,9 @@ function App() {
           </header>
 
           <section className="intro-photo">
-            <img src={mu1} alt="Main memory" className="intro-photo-img" />
+            <img src={muanim}
+            
+            alt="Main memory" className="intro-photo-img" />
           </section>
 
           <section id="portfolio" className="section portfolio">
