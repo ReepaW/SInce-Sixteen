@@ -30,6 +30,8 @@ function App() {
     { src: mu1, alt: "mu1" },
     { src: mu2, alt: "mu2" },
     { src: mu3, alt: "mu3" },
+    { src: bubuy, alt: "bubuy" },
+
   
   ]
 
