@@ -8,6 +8,14 @@ import mu1 from './assets/mu1.JPG'
 import mu2 from './assets/mu2.JPG'
 import mu3 from './assets/mu3.JPG'
 import muanim from './assets/muanim.JPG'
+import sushi1 from './assets/sushi1.jpg'
+import sushi4 from './assets/sushi4.jpg'
+import sushi5 from './assets/sushi5.jpg'
+import sushi6 from './assets/sushi6.jpg'
+import sushi7 from './assets/sushi7.jpg'
+import sushi8 from './assets/sushi8.jpg'
+import sushi9 from './assets/sushi9.jpg'
+
 
 function App() {
   const [entered, setEntered] = useState(false)
@@ -31,6 +39,13 @@ function App() {
     { src: mu1, alt: "mu1" },
     { src: mu2, alt: "mu2" },
     { src: mu3, alt: "mu3" },
+    { src: sushi1, alt: "sushi" },
+    { src: sushi4, alt: "sushi" },
+    { src: sushi5, alt: "sushi" },
+    { src: sushi6, alt: "sushi" },
+    { src: sushi7, alt: "sushi" },
+    { src: sushi8, alt: "sushi" },
+    { src: sushi9, alt: "sushi" },
   ]
 
   const journeyPhases = [
