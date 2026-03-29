@@ -1,8 +1,6 @@
 import { useState } from 'react'
 import './App.css'
 import jempol from './assets/jempol.JPG'
-import wisuda from './assets/wisuda.JPG'
-import bubuy from './assets/bubuy.JPG'
 import wisudah from './assets/wisudah.JPG'
 import mu1 from './assets/mu1.JPG'
 import mu2 from './assets/mu2.JPG'
