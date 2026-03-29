@@ -51,8 +51,8 @@ function App() {
   const journeyPhases = [
     {
       id: 'highschool',
-      period: '2016 - 2019',
-      title: 'Highschool (Teenager)',
+      period: '2017 - 2019',
+      title: 'Highschool Era',
       description: 'The beginning of us, from classmates to the first chapters of our story.',
       image: mu1,
       alt: 'Highschool memory',
@@ -66,28 +66,28 @@ function App() {
     {
       id: 'college',
       period: '2019 - 2025',
-      title: 'College (Young Adult)',
-      description: 'Different routines, bigger dreams, and still choosing each other through every season.',
+      title: 'College Era',
+      description: 'Different routines, different city, bigger dreams, and still choosing each other through every season.',
       image: wisudah,
       alt: 'College memory',
       memories: [
-        { year: '2019', caption: 'Stepping into a new phase', src: wisudah, alt: 'Memory from 2019' },
-        { year: '2021', caption: 'Long days, stronger bond', src: bubuy, alt: 'Memory from 2021' },
+        { year: '2019', caption: 'Stepping into a new phase', src: sushi7, alt: 'Memory from 2019' },
+        { year: '2021', caption: 'Long days, stronger bond', src: sushi5, alt: 'Memory from 2021' },
         { year: '2023', caption: 'Still side by side', src: jempol, alt: 'Memory from 2023' },
-        { year: '2025', caption: 'A proud milestone together', src: wisuda, alt: 'Memory from 2025' },
+        { year: '2025', caption: 'A proud milestone together', src: wisudah, alt: 'Memory from 2025' },
       ],
     },
     {
       id: 'work',
       period: '2025 - Forever',
-      title: 'Work Phase (Adult)',
+      title: 'Real Life',
       description: 'Building life, careers, and a future together. This chapter keeps growing.',
       image: muanim,
       alt: 'Adult phase memory',
       memories: [
         { year: '2025', caption: 'Starting the adult chapter', src: muanim, alt: 'Memory from 2025' },
         { year: '2026', caption: 'Creating our next routines', src: jempol, alt: 'Memory from 2026' },
-        { year: 'Future', caption: 'More memories to come', src: wisuda, alt: 'Future memory' },
+        { year: 'Future', caption: 'More memories to come', src: sushi9, alt: 'Future memory' },
       ],
     },
   ]
@@ -195,7 +195,7 @@ function App() {
           </section>
 
           <section id="portfolio" className="section portfolio">
-            <h2>PORTFOLIO</h2>
+            <h2>Gallery</h2>
             <div className="gallery">
               {portfolioImages.map((image, i) => (
                 <div key={i} className="gallery-item">
