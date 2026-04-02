@@ -13,6 +13,10 @@ import sushi6 from './assets/sushi6.jpg'
 import sushi7 from './assets/sushi7.jpg'
 import sushi8 from './assets/sushi8.jpg'
 import sushi9 from './assets/sushi9.jpg'
+import hs1 from './assets/2018/hs1.JPG'
+import hs2 from './assets/2018/hs2.JPG'
+import hs3 from './assets/2018/hs3.JPG'
+import hs4 from './assets/2018/hs4.JPG'
 
 
 function App() {
@@ -44,6 +48,8 @@ function App() {
     { src: sushi7, alt: "sushi" },
     { src: sushi8, alt: "sushi" },
     { src: sushi9, alt: "sushi" },
+   
+    
   ]
 
   const journeyPhases = [
@@ -55,9 +61,9 @@ function App() {
       image: mu1,
       alt: 'Highschool memory',
       memories: [
-        { year: '2016', caption: 'Where it all started', src: mu1, alt: 'Memory from 2016' },
+        { year: '2016', caption: 'Where it all started', src: hs1, alt: 'Memory from 2016' },
         { year: '2017', caption: 'Growing closer every day', src: mu2, alt: 'Memory from 2017' },
-        { year: '2018', caption: 'Teenage days full of laughs', src: mu3, alt: 'Memory from 2018' },
+        { year: '2018', caption: 'Teenage days full of laughs', src: hs2, alt: 'Memory from 2018' },
         { year: '2019', caption: 'Last school chapter together', src: wisudah, alt: 'Memory from 2019' },
       ],
     },
