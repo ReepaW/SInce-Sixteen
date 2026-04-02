@@ -48,6 +48,11 @@ function App() {
     { src: sushi7, alt: "sushi" },
     { src: sushi8, alt: "sushi" },
     { src: sushi9, alt: "sushi" },
+    { src: hs1, alt: "hs1"},
+    { src: hs2, alt: "hs2"},
+    { src: hs3, alt: "hs3"},
+    { src: hs4, alt: "hs4"}
+   
    
     
   ]
