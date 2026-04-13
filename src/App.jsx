@@ -154,7 +154,7 @@ function App() {
             <img src={muanim} alt="Main memory" className="intro-photo-img" />
             <div className="intro-photo-copy">
               <p className="intro-kicker">A story from sixteen to forever</p>
-              <h2>Every memory has a heartbeat.</h2>
+              <h2>Through the highs and lows, through the fights and loves.</h2>
             </div>
           </section>
 
