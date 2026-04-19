@@ -131,7 +131,7 @@ function App() {
       memories: [
         { year: '2016', caption: 'Where it all started', src: hs1, alt: 'Memory from 2016' },
         { year: '2017', caption: 'Growing closer every day', src: mac8, alt: 'Memory from 2017' },
-        { year: '2018', caption: 'Teenage days full of laughs', src: mac17, alt: 'Memory from 2018' },
+        { year: '2018', caption: 'Teenage days full of laughs', src: hs3, alt: 'Memory from 2018' },
         { year: '2019', caption: 'Last school chapter together', src: prom5, alt: 'Memory from 2019' },
       ],
     },
