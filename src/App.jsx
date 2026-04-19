@@ -17,6 +17,38 @@ import hs1 from './assets/2018/hs1.JPG'
 import hs2 from './assets/2018/hs2.JPG'
 import hs3 from './assets/2018/hs3.JPG'
 import hs4 from './assets/2018/hs4.JPG'
+import lulus1 from './assets/2018/lulus1.JPG'
+import lulus2 from './assets/2018/lulus2.JPG'
+import lulus3 from './assets/2018/lulus3.JPG'
+import lulus4 from './assets/2018/lulus4.JPG'
+import lulus5 from './assets/2018/lulus5.JPG'
+import lulus6 from './assets/2018/lulus6.JPG'
+import lulus7 from './assets/2018/lulus7.JPG'
+import mac1 from './assets/2018/mac1.jpg'
+import mac2 from './assets/2018/mac2copy.jpg'
+import mac3 from './assets/2018/mac3.jpg'
+import mac4 from './assets/2018/mac4.jpg'
+import mac5 from './assets/2018/mac5.jpg'
+import mac6 from './assets/2018/mac6.jpg'
+import mac7 from './assets/2018/mac7.jpg'
+import mac8 from './assets/2018/mac8.jpg'
+import mac9 from './assets/2018/mac9.jpg'
+import mac10 from './assets/2018/mac10.jpg'
+import mac11 from './assets/2018/mac11.jpg'
+import mac12 from './assets/2018/mac12.jpg'
+import mac13 from './assets/2018/mac13.jpg'
+import mac14 from './assets/2018/mac14.jpg'
+import mac15 from './assets/2018/mac15.jpg'
+import mac16 from './assets/2018/mac16.jpg'
+import mac17 from './assets/2018/mac17.jpg'
+import mac18 from './assets/2018/mac18.jpg'
+import mac19 from './assets/2018/mac19.jpg'
+import prom1 from './assets/2018/prom1.JPG'
+import prom2 from './assets/2018/prom2.JPG'
+import prom3 from './assets/2018/prom3.JPG'
+import prom4 from './assets/2018/prom4.JPG'
+import prom5 from './assets/2018/prom5.JPG'
+
 
 
 function App() {
@@ -51,7 +83,38 @@ function App() {
     { src: hs1, alt: "hs1"},
     { src: hs2, alt: "hs2"},
     { src: hs3, alt: "hs3"},
-    { src: hs4, alt: "hs4"}
+    { src: hs4, alt: "hs4"},
+    { src: lulus1, alt: "lulus1"},
+    { src: lulus2, alt: "lulus2"},
+    { src: lulus3, alt: "lulus3"},
+    { src: lulus4, alt: "lulus4"},
+    { src: lulus5, alt: "lulus5"},
+    { src: lulus6, alt: "lulus6"},
+    { src: lulus7, alt: "lulus7"},
+    { src: mac1, alt: "mac1"},
+    { src: mac2, alt: "mac2"},
+    { src: mac3, alt: "mac3"},
+    { src: mac4, alt: "mac4"},
+    { src: mac5, alt: "mac5"},
+    { src: mac6, alt: "mac6"},
+    { src: mac7, alt: "mac7"},
+    { src: mac8, alt: "mac8"},
+    { src: mac9, alt: "mac9"},
+    { src: mac10, alt: "mac10"},
+    { src: mac11, alt: "mac11"},
+    { src: mac12, alt: "mac12"},
+    { src: mac13, alt: "mac13"},
+    { src: mac14, alt: "mac14"},
+    { src: mac15, alt: "mac15"},
+    { src: mac16, alt: "mac16"},
+    { src: mac17, alt: "mac17"},
+    { src: mac18, alt: "mac18"},
+    { src: mac19, alt: "mac19"},
+    { src: prom1, alt: "prom1"},
+    { src: prom2, alt: "prom2"},
+    { src: prom3, alt: "prom3"},
+    { src: prom4, alt: "prom4"},
+    { src: prom5, alt: "prom5"},
    
    
     
@@ -63,13 +126,13 @@ function App() {
       period: '2017 - 2019',
       title: 'Highschool Era',
       description: 'The beginning of us, from classmates to the first chapters of our story.',
-      image: mu1,
+      image: lulus7,
       alt: 'Highschool memory',
       memories: [
         { year: '2016', caption: 'Where it all started', src: hs1, alt: 'Memory from 2016' },
-        { year: '2017', caption: 'Growing closer every day', src: mu2, alt: 'Memory from 2017' },
-        { year: '2018', caption: 'Teenage days full of laughs', src: hs2, alt: 'Memory from 2018' },
-        { year: '2019', caption: 'Last school chapter together', src: wisudah, alt: 'Memory from 2019' },
+        { year: '2017', caption: 'Growing closer every day', src: mac8, alt: 'Memory from 2017' },
+        { year: '2018', caption: 'Teenage days full of laughs', src: mac17, alt: 'Memory from 2018' },
+        { year: '2019', caption: 'Last school chapter together', src: prom5, alt: 'Memory from 2019' },
       ],
     },
     {
@@ -154,7 +217,8 @@ function App() {
             <img src={muanim} alt="Main memory" className="intro-photo-img" />
             <div className="intro-photo-copy">
               <p className="intro-kicker">A story from sixteen to forever</p>
-              <h2>Through the highs and lows, through the fights and loves.</h2>
+              <h2>Every memory has a heartbeat.</h2>
+              <h6>Through the highs and lows, through the fights and loves.</h6>
             </div>
           </section>
 
